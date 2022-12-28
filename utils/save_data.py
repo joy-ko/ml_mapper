@@ -13,3 +13,4 @@ def make_train_data(path_wt_name):
 def add_train_tsv_row(path_wt_name, content):
     with open(path_wt_name, "a") as f:
         f.write(content)
+
